@@ -20,8 +20,8 @@ export const ItemCount = (props) => {
         }
     }
     return (
-        <div>
-            <Container className='item'>
+        <div className='m-5'>
+            <Container className='item borderBox'>
                 <Row>
                     <Col><Button variant="outline-dark" onClick={removeProduct}><RemoveIcon/></Button></Col>
                     <Col><h3 >{cont}</h3></Col>
@@ -30,7 +30,7 @@ export const ItemCount = (props) => {
             </Container>
             <Container className='item'>
                 <Row>
-                    <Col><Button className='w-100' variant="outline-dark"> Agregar al carrito</Button></Col>
+                    <Col><Button className='boton' variant="outline-dark"> Agregar al carrito</Button></Col>
                 </Row>
             </Container>
         </div>
