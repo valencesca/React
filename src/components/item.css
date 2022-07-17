@@ -2,3 +2,9 @@ img{
     height: 30%;
     width: 250px;
 }
+.itemFlex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    align-items: center;
+}
